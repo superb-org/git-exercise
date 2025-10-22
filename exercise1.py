@@ -7,8 +7,7 @@ from math import isclose
 
 class Vector:
     def __init__(self, coordinates: List[float]) -> None:
-        # self._coordinates = coordinates.copy()
-        self._coordinates = coordinates # Task A
+        self._coordinates = coordinates.copy()
 
     def __getitem__(self, i: int) -> float:
         return self._coordinates[i]
